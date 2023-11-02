@@ -12,7 +12,7 @@ def permutations(elements):
       generated.append([start] + end)
   return generated
 
-arg = [1,2,3]
+arg = [1, 2, 3, 4, 5]
 result = permutations(arg)
 print(result)
 assert len(result) == factorial(len(arg)), "length should be factorial"
